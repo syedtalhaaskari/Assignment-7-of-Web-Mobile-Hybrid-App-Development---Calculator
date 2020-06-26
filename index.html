@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7 - Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="input">
+            <input id="result" type="text" value="0">
+        </div>
+        <div class="row clearKeys">
+            <button class="operations" onclick="clearResult()">C</button>
+            <button class="operations" onclick="backspace()"><i class="fa fa-caret-square-o-left" aria-hidden="true"></i></button>
+        </div>
+        <div class="row">
+            <button class="operations" onclick="reciprocal()">1/x</button>
+            <button class="operations" onclick="square()">x<sup>2</sup></button>
+            <button class="operations" onclick="squareRoot()">
+                <span style="white-space: nowrap; font-size:larger"><sup>2</sup>
+                    &radic;<span style="text-decoration:overline;">&nbsp;x&nbsp;</span>
+                </span>
+            </button>
+            <button class="operations" onclick="getNumber('/')">&divide;</button>
+        </div>
+        <div class="row">
+            <button class="numerals" onclick="getNumber('7')">7</button>
+            <button class="numerals" onclick="getNumber('8')">8</button>
+            <button class="numerals" onclick="getNumber('9')">9</button>
+            <button class="operations" onclick="getNumber('*')">&times;</button>
+        </div>
+        <div class="row">
+            <button class="numerals" onclick="getNumber('4')">4</button>
+            <button class="numerals" onclick="getNumber('5')">5</button>
+            <button class="numerals" onclick="getNumber('6')">6</button>
+            <button class="operations" onclick="getNumber('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="numerals" onclick="getNumber('1')">1</button>
+            <button class="numerals" onclick="getNumber('2')">2</button>
+            <button class="numerals" onclick="getNumber('3')">3</button>
+            <button class="operations" onclick="getNumber('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="numerals" onclick="oppositeSign()"><sup>+</sup>/<sub>-</sub></button>
+            <button class="numerals" onclick="getNumber('0')">0</button>
+            <button class="numerals" onclick="getNumber('.')">.</button>
+            <button class="result" onclick="getResult()">=</button>
+        </div>
+    </div>
+
+    <script src="./javascript/app.js"></script>
+</body>
+
+</html>

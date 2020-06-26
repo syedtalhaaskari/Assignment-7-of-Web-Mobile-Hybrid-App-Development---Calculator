@@ -1,0 +1,73 @@
+* {
+    font-size: large;
+}
+
+.main {
+    background-color: gray;
+    width: 400px;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.input {
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 386px;
+    height: 70px;
+    background-color: gray;
+    border: 2px double rgb(185, 179, 179);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+    text-align: right;
+    font-size: xx-large;
+}
+
+.row {
+    width: 400px;
+}
+
+.clearKeys button {
+    width: 195px;
+    background-color: rgb(124, 5, 5);
+}
+
+.clearKeys button:hover {
+    background-color: rgb(153, 4, 4);
+}
+
+button {
+    height: 60px;
+    width: 94px;
+    margin: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.numerals {
+    background-color: #080808;
+}
+
+.operations {
+    background-color: rgb(71, 71, 71);
+}
+
+.result {
+    background-color: rgb(43, 66, 134);
+}
+
+.result:hover {
+    background-color: rgb(106, 185, 211);
+}
+
+button:hover {
+    background-color: rgb(165, 165, 165);
+}
